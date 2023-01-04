@@ -27,11 +27,7 @@
 
 ## 진행 상황
 
-### 1. 환경 셋팅 (완)
-
-- react + webpack 환경 셋팅
-
-### 2. 마크다운 파일 처리 (진행 중)
-
-- md 파일 뿌려줄 라이브러리 찾기
+- react + webpack 환경 셋팅 (완)
+- md 파일 뿌려줄 라이브러리 찾기 (완)  
+  => [`marked`](https://www.npmjs.com/package/marked) 사용
 - `_posts` 내부의 모든 `.md` 불러와 리스트 생성
