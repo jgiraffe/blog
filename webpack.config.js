@@ -33,6 +33,10 @@ module.exports = {
       {
         oneOf: [
           {
+            test: /\.md$/,
+            use: ["html-loader", "markdown-loader"],
+          },
+          {
             test: /\.(js|jsx)$/,
             exclude: /node_modules/,
             use: {

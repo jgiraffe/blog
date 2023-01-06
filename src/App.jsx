@@ -1,10 +1,9 @@
 import React from "react";
-import { marked } from "marked";
+
+import test from "./_posts/test.md";
 
 const App = () => {
-  const markedParse = marked.parse("# Marked Test");
-
-  return <div dangerouslySetInnerHTML={{ __html: markedParse }} />;
+  return <div dangerouslySetInnerHTML={{ __html: test }} />;
 };
 
 export default App;

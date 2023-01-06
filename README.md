@@ -30,4 +30,5 @@
 - react + webpack 환경 셋팅 (완)
 - md 파일 뿌려줄 라이브러리 찾기 (완)  
   => [`marked`](https://www.npmjs.com/package/marked) 사용
+  => marked를 사용하는 로더 (markdown-loader)가 있어서 로더 사용하기로 최종 결정
 - `_posts` 내부의 모든 `.md` 불러와 리스트 생성
