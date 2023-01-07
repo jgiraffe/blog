@@ -29,6 +29,11 @@
 
 - react + webpack 환경 셋팅 (완)
 - md 파일 뿌려줄 라이브러리 찾기 (완)  
-  => [`marked`](https://www.npmjs.com/package/marked) 사용
-  => marked를 사용하는 로더 (markdown-loader)가 있어서 로더 사용하기로 최종 결정
-- `_posts` 내부의 모든 `.md` 불러와 리스트 생성
+  => [`marked`](https://www.npmjs.com/package/marked) 사용  
+  => marked를 사용하는 로더 (`markdown-loader`)가 있어서 로더 사용하기로 최종 결정
+- `_posts` 내부의 모든 `.md` 불러와 리스트 생성 (완)  
+  => 정적 웹사이트라 무식한 방법 필요  
+  => 모든 md 파일명을 담은 배열을 사용해 전부 import  
+  => 더 나은 아이디어가 떠오르기 전까진 해당 방법으로 진행
+- 제목 리스트 UI
+- 모든 md 파일명 배열 json을 빌드 시 자동 생성 시키기
